@@ -1,0 +1,73 @@
+body{
+    
+    background-image: url("bck.jpg");
+    background-size: cover;
+    color: rgb(255, 255, 255);
+    
+    
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+
+}
+nav{
+    padding: 1rem;
+}
+nav ul{
+    list-style-type: none;
+    padding: 5px;
+    margin: 20px 50px 40px 50px;
+    display: flex;
+    justify-content: space-around;
+}
+li{
+    margin: 30px;
+    padding: 10PX;
+    color: beige;
+    font-size: 25px;
+    font-weight: bolder;
+}
+nav a{
+    
+    text-decoration: none;
+    font-size: 1rem;
+}
+li:hover{
+    color: black;
+    background-color: #ffffff;
+}
+
+
+div.scroll-container {
+    overflow: auto;
+    white-space: nowrap;
+    padding: 10px;
+    box-shadow: inset;
+    opacity: 0.9;
+}
+
+.scroll-container:hover{
+    opacity:1;
+}
+div.scroll-container img {
+    width: 200px; 
+    height: 250px; 
+    padding: 10px;
+    display: inline-block;
+    
+}
+
+
+div.scroll-container::-webkit-scrollbar {
+    display: none;
+}
+
+
+div.scroll-container {
+    scrollbar-width: none; /* Firefox */
+}
+
+div.scroll-container {
+    -ms-overflow-style: none;  /* Internet Explorer and Edge */
+}
